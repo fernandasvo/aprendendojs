@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Aprendendo JS </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300italic,300,200italic,200,400italic,600' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      var nome = prompt("Olá, qual seu nome?");
+      var anoNascimento = prompt(nome + ", em que ano você nasceu?");
+      var cidadeAtual = prompt("E em que cidade você mora?");
+      var anoAtual = 2016;
+      var idade = anoAtual - anoNascimento;
+
+      document.write ("<h1>Ficha Cadastral</h1>" + "<br>" + "<h2> Nome: </h2>" + nome + "<br>" + "<h2>Idade: </h2>" + idade + "<br>" + "<h2> Cidade Atual: </h2>" + cidadeAtual);
+      /*
+      var doces = ["Brigadeiro", "Doce de Leite"];
+      alert(doces[0]); */
+    </script>
+  </body>
+</html>
